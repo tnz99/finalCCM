@@ -1,0 +1,12 @@
+app/View/Components
+
+public/audios
+public/css
+public/images
+public/js
+
+resources/views
+
+routes/web.php
+
+brew services start php
