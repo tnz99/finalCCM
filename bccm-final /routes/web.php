@@ -15,17 +15,9 @@ Route::get('/', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
-Route::get('/about', function() {
-    return view('about');
-});
-
-Route::get('/news-and-event', function() {
-    return view('news');
-});
-
-Route::get('/contact', function() {
-    return view('contact');
-});
+Route::get('/about', function() { return view('about'); });
+Route::get('/news-and-event', function() { return view('news'); });
+Route::get('/contact', function() { return view('contact'); });
 
 Route::get('/the-kingdom2', function() {
     $links = ['/the-kingdom', '/the-kingdom2'];
@@ -53,6 +45,7 @@ Route::get('/the-flora2', function() {
                          ->with('cnavBg', $cnavBg)
                          ->with('cnavInnerBorder', $cnavInnerBorder);
 });
+
 Route::get('/the-flora3', function() {
     $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
     $nextLink = "the-fauna";
@@ -278,10 +271,6 @@ Route::get('/the-butterfly2', function() {
                          ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
-
-
-
-
 Route::get('/the-climate', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
@@ -352,6 +341,7 @@ Route::get('/the-spring', function() {
                         ->with('cnavBg', $cnavBg)
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
+
 Route::get('/the-autumn', function() {
     $description = "As summer bids farewell, Bhutan's autumn unveils a breathtaking spectacle, with golden leaves carpeting the ground and the clear skies framing the majestic Himalayas.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
