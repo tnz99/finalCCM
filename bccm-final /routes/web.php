@@ -1,19 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\User;
 use Illuminate\Http\Request;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|gs
-*/
+use App\Models\User;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Auth\RegisterController;
 
 Route::get('/', function() {
     $cnavBg = "the-climate-cnav-bg";
@@ -35,11 +26,6 @@ Route::get('/news-and-event', function() {
 Route::get('/contact', function() {
     return view('contact');
 });
-
-// Route::get('/register', function() {
-//     return view('auth.register')->with('darkThemeFlag', false);
-// });
-
 
 Route::get('/the-kingdom2', function() {
     $links = ['/the-kingdom', '/the-kingdom2'];
@@ -436,12 +422,6 @@ Route::get('/the-people', function() {
                         ->with('cnavBg', $cnavBg)
                         ->with('cnavInnerBorder', $cnavInnerBorder);
 });
-// Auth::routes(); 
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\Auth\RegisterController;
 
 Route::get('/', function () {
     $cnavBg = "the-climate-cnav-bg";
@@ -452,9 +432,11 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/register', function () {
-    $darkThemeFlag = true; // Adjust this value as needed
-    $cnavBg = "the-climate-cnav-bg"; // Add this line or adjust as needed
-    $cnavInnerBorder = "border-gray"; // Add this line or adjust as needed
+    $darkThemeFlag = true;
+    $cnavBg = "the-climate-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    dump();
 
     return app(RegisterController::class)->showRegisterForm();
 })->name('register');
@@ -470,21 +452,3 @@ Route::post('/register', function(Request $request) {
 
     return redirect()->route('register')->with('success', true);
 });
-
-
-
-
-// Route::get('/register', [RegisterController::class, 'showRegisterForm'])->name('register');
-
-
-// Route::get('/views/auth/register', function() {
-//     $cnavBg = "the-people-cnav-bg";
-//     $cnavInnerBorder = "border-white";
-
-//     $registerViewPath = base_path('resources/views/auth/register.blade.php');
-
-//     return view($registerViewPath)->with('darkThemeFlag', false)
-//                                   ->with('cnavBg', $cnavBg)
-//                                   ->with('cnavInnerBorder', $cnavInnerBorder);
-// });
-
