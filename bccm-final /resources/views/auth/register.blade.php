@@ -80,6 +80,4 @@
 
 @section('nav')
     <x-circular_nav background="the-spring-cnav-bg" inner-border="border-white"/>
-
-
 @endsection
