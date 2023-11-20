@@ -13,24 +13,24 @@
             </div>
         </div>
         
-        <ul class="year-story-content">
-            {{ $story }}
-        </ul>
+        <div class="year-story-content">{{ $story }}</div>
     </div>
 
-    <ul class="year-nav-list">
-        <li class="year-nav-list-item"><a href="/laws/1999" class="spin-button year-nav-link">1999</a></li>
-        <li class="year-nav-list-item"><a href="/laws/2000" class="spin-button year-nav-link">2000</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2001</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2002</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2003</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2004</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2005</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2006</a></li>
-        <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2007</a></li>
+    <ul class="year-nav-list year-scroll">
+        <li class="year-nav-list-item"><a href="/laws/1995" class="spin-button year-nav-link">1995</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2001" class="spin-button year-nav-link">2001</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2009" class="spin-button year-nav-link">2009</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2010" class="spin-button year-nav-link">2010</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2011" class="spin-button year-nav-link">2011</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2015" class="spin-button year-nav-link">2015</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2016" class="spin-button year-nav-link">2016</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2017" class="spin-button year-nav-link">2017</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2018" class="spin-button year-nav-link">2018</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2019" class="spin-button year-nav-link">2019</a></li>
+        <li class="year-nav-list-item"><a href="/laws/2020" class="spin-button year-nav-link">2020</a></li>
     </ul>
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </div>
 
 <img id="prayer-wheel" src="{{ asset('/images/prayer-wheel/1.png') }}" alt="prayer wheel" class="prayer-wheel-position prayer-wheel"  >

@@ -11,4 +11,4 @@
     <div id="hide_circular_nav" class="inner-circle z-1 {{ $innerBorder }}">
         <p class="inner-text ml-50p fw-700 font-normal lh-normal fs-24">Our Story</p>
     </div>
-</nav>
+</nav> 

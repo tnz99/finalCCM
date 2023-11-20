@@ -2,6 +2,7 @@
     .circular-nav, #our_story_btn {
         display: none;
     }
+    
     .open-btn {
         display: block;
         position: fixed;
@@ -9,16 +10,40 @@
         bottom: 0;
         right: 0;
 
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-right: 40px;
     }
-}
+    
 
-/* @media (max-width: 1900px) {
-    .prayer-wheel {
-        display: none;
+    .next-story-text {
+        font-size: 14px;
     }
-} */
+
+    .circle-xm {
+        width: 40px;
+        height: 40px;
+    }
+
+    .next-story-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    body .options .active {
+        min-width: 315px;
+    }
+
+    .gallery-container {
+        overflow-x: auto;
+        width: 50%;
+        max-height: 50%;
+        margin-top: 100px;
+    }
+
+    h1.text-white {
+        margin-left: 50px;
+    }
+}
 
 @media (max-width: 1100px) {
     /* Header Component */
@@ -30,7 +55,7 @@
 
     .menu-icon {
         display: block;
-        margin-right: 40px;
+        margin-right: 10px;
     }
 
     .header-nav-list li .custom-audio {
@@ -38,7 +63,7 @@
     }
 
     .logo {
-        margin-left: 50px;
+        margin-left: 15px;
     }
 
     .svg-logo {
@@ -67,6 +92,7 @@
         top: 0;
         right: 0;
         padding-top: 50px;
+        padding-left: 20px;
         z-index: 2;
         background: #a8aa4a;
         animation: 1s grow ease forwards;
@@ -119,6 +145,7 @@
 
     /* Story Pages */
     .story-control-wrapper {
+        position: relative;
         margin-left: 0px;
         justify-content: space-between;
         bottom: 0;
@@ -126,11 +153,11 @@
     }
 
     .story-control {
-        padding-left: 0;
+        padding-left: 50px;
     }
 
     .story-section {
-        padding-left: 50px;
+        /* padding-left: 50px; */
         padding-right: 40px;
         margin-top: 80px;
     }
@@ -143,27 +170,41 @@
     .story-header-text {
         font-size: 50px;
         padding-bottom: 0;
-        margin: 0;
+        margin-left: 20px;
         line-height: normal;
     }
 
     .story-header-description {
-        font-size: 14px;
+        font-size: 16px;
+        margin-left: 20px;
     }
 
     .next-story {
-        margin-left: 10%;
-        /* height: 40px;
-        width: 35px; */
+        margin-left: -10%;
+        height: 25px;
+        width: 25px;
     }
 
     .next-story-text {
-        font-size: 12px;
+        font-size: 8px;
+        color: white;
+        font-weight: 30px;;
+        opacity: 1;
+    }
+    .next-story-btn {
+        width: 25px;
+        height: 25px;
+        
+    }
+    .next-story-icon{
+        height:15px;
+        width:15px;
     }
 
     .circle-xm {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
+        margin-left: -50%;
     }
 
     /* Registration Page */
@@ -182,10 +223,7 @@
         align-items: center;
     }
 
-    .next-story-btn {
-        width: 35px;
-        height: 35px;
-    }
+   
 
     /* Prayer Wheel */
     .prayer-wheel {
@@ -207,21 +245,33 @@
         width: 25ch;
     }
 
+    .year-story-header-year {
+        font-size: 60px;
+        margin-left: -25px;
+    }
+
     .year-story-header-subtext {
         width: 450px;
+        font-size: 20px;
+        margin-left: -19px;
     }
 
     .year-story-content {
-        width: 100%;
-        margin-left: 50px;
+        width: 80%;
+        margin-left: 30px;
         margin-right: 40px;
         padding: 0;
+        font-size: 14px;
     }
 
     .year-nav-list {
         margin-left: 50px;
+        margin-top: 6px;
+        display: flex;
+        list-style: none;
+        overflow-x: scroll;
+        padding-bottom: 6px;
     }
-
     /* end */
 
     .story-header-content {
@@ -237,6 +287,35 @@
     .story-header-description {
         max-width: 100%;
     }
+
+    .gallery-container {
+        margin-left: 7px;
+        overflow-x: scroll;
+        width: 110%;
+        height:46%;
+        margin-top: -10px;
+    }
+    .option{
+        margin-top:20px;
+    
+    }
+    
+
+
+
+    h1.text-white, h1.text-black, h1.text-white span.text-uppercase, h1.text-black span.text-uppercase {
+        font-size: 30px;
+
+    }
+
+    h1.text-white, h1.text-black {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    /* .gallery-container {
+        margin-top: -5px;
+    } */
 }
 
 @media screen and (max-width: 430px) {
@@ -247,4 +326,24 @@
     }
 }
 
+
+/* contact */
+/* Media query for mobile devices */
+@media only screen and (max-width: 430px) {
+    .fb-div {
+        width: 60px;
+        height: 60px;
+        position:relative;
+        bottom: -100px;
+        left: 50px;
+    }
+
+    .fb,
+    .ig,
+    .email {
+        width: 40px;
+        height: 40px;
+        
+    }
+}
 

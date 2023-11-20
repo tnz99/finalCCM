@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home')->with("darkThemeFlag",true)
+        return view('home')->with("darkThemeFlag",false)
                            ->with("cnavBg","the-spring-cnav-bg") 
                            ->with("cnavInnerBorder", "border-white");
     }

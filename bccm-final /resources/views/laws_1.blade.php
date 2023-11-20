@@ -4,19 +4,19 @@
     <x-header :dark=false />
 @endsection
 @section('content')
-<div class="d-flex flex-column">
+<div class="d-flex flex-column story-section">
     <div id="main-section" class="d-flex justify-content-start year-story-wrapper">
         <div class="year-story-header">
             <div class="p-0">
                 <h2 class="text-black fw-700 year-story-header-year">1995</h2>
-                <p class="year-story-header-subtext">Bhutan's Forest and Nature Conservation Act - "Conservation and sustainable management of Bhutan's forests."</p>
+                <p class="year-story-header-subtext">"Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan's forests."</p>
             </div>
         </div>
         
         <ul class="year-story-content">
-            The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area
-            Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
-            The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.
+        The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area.
+        Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
+        The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.
         </ul>
     </div>
 
@@ -40,5 +40,5 @@
 
 @section('nav')
     <x-story-nav :dark=false />
-    <x-circular_nav background="the-law1-cnav-bg" inner-border="broder-gray"/>
+    <x-circular_nav background="the-law-cnav-bg" inner-border="border-gray"/>
 @endsection

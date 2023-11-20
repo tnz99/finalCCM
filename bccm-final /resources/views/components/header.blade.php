@@ -24,7 +24,7 @@
         <ul class="header-nav-list">
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/">home</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/about">about</a></li>
-            <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/news-and-event">news & events</a></li>
+            <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/the-newsE">news & events</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/contact">contact</a></li>
             
             <button id="close-nav" type="button" class="close menu-icon close-nav-icon" aria-label="Close">

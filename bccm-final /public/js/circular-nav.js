@@ -18,6 +18,13 @@ $(function(){
     $('.nav-item').mouseleave(function() {
         $(this).find('.cnav-icon').hide();        
     })
+    $('#rotate-icon').mouseenter(function() {
+        $(this).find('.register-icon').addClass('point-right');
+    })
 
-    // 2
+    $('#rotate-icon').mouseleave(function() {
+        $(this).find('.register-icon').removeClass('point-right');        
+    })
+
+    
 });

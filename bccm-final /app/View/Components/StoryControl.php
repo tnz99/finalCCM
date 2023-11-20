@@ -7,7 +7,8 @@ use Illuminate\View\Component;
 class StoryControl extends Component {
     public function __construct(
         public array $links,
-        public string $nextLink
+        public string $nextLink,
+        public bool $dark,
     ) {}
 
     public function render() {

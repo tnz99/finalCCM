@@ -1,22 +1,17 @@
-* {
-    font-size: 16px;
- 
-}
+* { font-size: 16px; }
 
+html{
+    overflow: hidden !important;
+}
 
 body {
     font-family: Inter;
     position: relative;
     overflow:hidden;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 
-
-
-ol, ul {
-    padding: 0;
-}
+ol, ul { padding: 0; }
 
 ::placeholder {
     color: #000;
@@ -45,7 +40,6 @@ ol, ul {
     font-weight: 400;
     line-height: normal;
 }
-
 
 button { border: 0; }
 
@@ -138,7 +132,6 @@ button { border: 0; }
 .text-green { color: #19D67B; }
 .text-yellow { color: #FCFF5C; } 
 .text-black { color: black; }
-.text-black { color: black}
 
 /* .register-background { background: url('../images/backgrounds/image_1.png'), lightgray 50% / cover no-repeat; } */
 .register-background {
@@ -159,6 +152,11 @@ button { border: 0; }
 }
 .the-laws-1  {
     background: lightgray url('../images/backgrounds/image_5.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.contact {
+    background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
 }
@@ -228,6 +226,13 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-change2 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/change.jpeg') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
 
 .the-climate {   background: lightgray url('../images/backgrounds/home.png') center/cover no-repeat;
     height: 100vh;
@@ -264,9 +269,29 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-people2{  
+    backdrop-filter: blur(10px); 
+    background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.the-newsE{  
+    backdrop-filter: blur(10px); 
+    background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.about{  
+    backdrop-filter: blur(6px); 
+    background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+
 .home {
     backdrop-filter: blur(50%);
-    background: lightgray url('../images/backgrounds/home.png');
+    background: lightgray url('../images/backgrounds/home1.png');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +299,7 @@ button { border: 0; }
     background-attachment: fixed;
 }
 
-.the-law-cnav-bg { background: linear-gradient(270deg, #7C745C 42.11%, rgba(255, 234, 172, 0.55) 101.31%); }
+.the-law-cnav-bg { background: linear-gradient(270deg, #7C745C 42.11%, rgba(255, 234, 172, 0.55) 101.31%);}
 .the-kingdom-cnav-bg { background: linear-gradient(270deg, #555050 42.11%, rgba(159, 159, 159, 0.00) 101.31%);}
 .the-climate-cnav-bg { background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%); }
 .the-flora-cnav-bg {background: linear-gradient(270deg, #1347AF 42.11%, rgba(238, 242, 245, 0.27) 101.31%);}
@@ -283,7 +308,9 @@ button { border: 0; }
 .the-spring-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
 .the-change-cnav-bg { background: linear-gradient(270deg, #400C00 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
 .the-fauna2-cnav-bg { background: linear-gradient(270deg, #eab676 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
-
+.the-summer-cnav-bg {background: linear-gradient(270deg, #C38F33 42.11%, rgba(255, 226, 173, 0.47) 101.31%);}
+.the-winter-cnav-bg {background: linear-gradient(270deg, #262432 42.11%, rgba(83, 80, 99, 0.29) 101.31%);}
+.the-autumn-cnav-bg {background: linear-gradient(270deg, #47A2DE 42.11%, rgba(188, 219, 240, 0.40) 101.31%);}
 .home-cnav-bg {
     background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
 }
@@ -307,7 +334,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     border: 1px solid gray;
 }
 .border-white {
-    border: 1px solid #BFBFBF;
+    border: 1px solid white;
 }
 
 .our-story-btn {
@@ -360,7 +387,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     }
 }
 
-.zoom-in-element { animation: zoomIn 1s ease; }
+.zoom-in-element { animation: zoomIn 0.5s ease; }
 
 .snowfall {
     position: absolute;
@@ -457,13 +484,16 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 }
 
 .year-story-header-year {
-    font-size: 70px;
+    font-size: 50px;
+   
+    
+
 }
 
 .year-story-header-subtext {
     color: #000;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -472,12 +502,13 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .year-story-content {
     color: #000;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     opacity: 0.5;
-    width: 30%;
+    width: 25%;
+    height:20%;
     padding-left: 9px;
 }
 
@@ -491,6 +522,10 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     margin-left: 150px;
     display: flex;
     list-style: none;
+    width:50%;
+    overflow-x: scroll;
+    padding-bottom: 6px;
+   
 }
 
 .year-nav-list-item {
@@ -508,10 +543,10 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 /* Story Control */
 .story-control-wrapper {
-    position: fixed;
+    position: relative;
     bottom: 0;
 
-    margin-left: 150px;
+    margin-left: 140px;
     margin-bottom: 60px;
 
     width: 30%;
@@ -537,6 +572,10 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     height: 25px;
 }
 
+.yearly-story-control-wrapper {
+    margin-left: 50px;
+}
+
 /* Home Page */
 .home-wrapper {
     margin-left: 145px;
@@ -544,11 +583,11 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 }
 .home-main-content{
     position:relative;
-    bottom: -50px;
+    bottom: 50px;
 }
 
 .home-header-text {
-    color: white;
+    color: black;
     line-height: normal;
     font-style: normal;
     font-weight: 400;
@@ -556,7 +595,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 }
 
 .home-header-subtext {
-    color: white;
+    color: black;
     line-height: normal;
     font-style: normal;
     font-weight: 700;
@@ -590,7 +629,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 .register-btn {
     width: 250px;
-    background: #FCFF5C;
+    background: yellow;
     font-size: 20px;
     font-style: normal;
     line-height: normal;
@@ -645,19 +684,34 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 .nav-list-link:hover {
     font-weight: 900;
+    background: rgba(255, 255, 0, 0.6);
+  
+    border-radius: 10px;
+
+   
+  
 }
 
 .nav-item {
     padding: 6px;
+   
+   
 }
 
 .nav-item:hover {
     border-radius: 0px 15px 15px 0px;
     background: linear-gradient(270deg, #947f7f 0%, rgba(255, 255, 255, 0.00) 74.59%);
+   
+ 
+
 }
 
+
+
+
 .cnav-link:hover {
-    color: yellow;
+    color: yellow;  
+     
 }
 
 .cnav-icon {
@@ -668,6 +722,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 /* Story Page */
 .story-section {
     margin-top: 140px;
+    height: 100vh;
 }
 
 .story-header {
@@ -682,17 +737,17 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 600;
     line-height: normal;
     position: relative;
-    bottom: 20px;
+    /* bottom: -50px; */
 }
 
 .story-header-description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     max-width: 70%;
     line-height: normal;
     font-style: normal;
     position: relative;
-    bottom: -50px;
+    /* bottom: -50px; */
     text-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Add a subtle text shadow for better visibility */
     text-align: justify; 
 }
@@ -713,12 +768,13 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     /* width: 32rem;
     height: 3.125rem; */
     flex-shrink: 1;
-    width: 160%;
+    width: 200%;
 }
     
 .register-form-container {
     margin-left: 150px;
     margin-top: 150px;
+   
 }
 
 .check-label-text {
@@ -766,12 +822,11 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 /* Full Page Story Navigation */
 .story-nav {
+    
     position: fixed;
-    top: 0;
+    top:100px;
     left: 0;
-
     z-index: 2;
-
     height: 100%;
     width: 100vw;
     backdrop-filter: blur(3px);
@@ -779,6 +834,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .story-nav-list > li {
@@ -812,16 +868,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     top: 0;
     left: 0;
 } */
-.image {
-    width: 90%; 
-    height: 40%;
-    border-radius: 10px; 
-    background-size: center;
-    background-position: center;
-    position: absolute;
-    top: 5%; 
-    left: 5%; 
-}
 
 
 /* Overlay styling
@@ -921,6 +967,64 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     background-color: yellow;
 }
 
-  
+h1.text-white, h1.text-black {
+    margin-left: 140px;
+    
+}
 
+.containerfb {
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
+    bottom: 50%;
+    right: 10%
+}
+
+
+.fb-div {
+    border-radius: 20px;
+    background: #FCFF5C;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;  
+   
+}
+
+.fb{
+    background: url(../images/backgrounds/fb.png), cover no-repeat;
+    width: 50px;
+    height: 50px;   
+}
+.ig{
+    background: url(../images/backgrounds/ig.png), cover no-repeat;
+    width: 50px;
+    height: 50px;
+  
+    
+}
+.email{
+    background: url(../images/backgrounds/email.png), cover no-repeat;
+    width: 50px;
+    height: 50px;   
+    
+}
+
+.point-right {
+    transform: rotate(90deg)
+}
+
+.register-btn:hover{
+    background-color:rgb(234, 234, 15);
+}
+
+
+
+
+

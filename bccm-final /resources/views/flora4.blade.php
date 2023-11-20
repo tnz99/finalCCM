@@ -7,181 +7,135 @@
 
 @section('content')
 
-<section>
+<section class="story-section">
     <div class="gallery-container">
         <div class="options">
-            <div class="option active">
-                <div class="image" style="background-image:url('../images/backgrounds/orc1.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Bulbophyllum punakhaense.</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-            <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-         </div>
-        </div>
-
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc2.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Bulbophyllum gurungianum</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-
-        
-
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc3.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Chiloschista densiflora</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc4.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Paphiopedilum fairrieanum</div>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="description">
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc5.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Pleione praecox (Sm.) D.Don</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description" >
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc6.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Acampe rigida (Buch.-Ham. ex Sm.) P.F.Hunt</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc7.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name</div>
-                        <div class="sub">Calanthe plantaginea Lindl. 1833</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-        <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/orc8.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Scientific name
+            <div class="option active" style="background:  #524266; opacity: 0.8;">
+                <div class="image active-image" style="background-image:url('../images/backgrounds/orc1.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Bulbophyllum punakhaense.</div>
                         </div>
-                        <div class="sub"> vanda striata Rchb.f.</div>
-                       
                     </div>
+               
                 </div>
+
+                <div class="description">
+                    <div class="image-content scroll text-white">Bulbophyllum punakhaense is named after Punakha Dzongkhag where it was first spotted and collected the specimen. The maroon blossoms of the orchid are small and delicate, measuring no more than four centimetres in length. The species is found between elevations of 2000 and 2700 m.</div>
+                </div>
+            </div>
+
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc2.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Bulbophyllum gurungianum</div>
+                        </div>
+                    </div>
                 
-            </div>
-            <div class="description">
-                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
-            </div>
-        </div>
-           
-            <!-- <div class="option" style="--optionBackground: url('../images/backgrounds/king.jpeg');">
-            </div>
-            <div class="option" style="--optionBackground: url('../images/backgrounds/queen2.jpeg') center/cover no-repeat;">
-            </div> -->
-          
-            
-        </div>
-
-        <div>
-            <h1 class="text-white">the Orchid</h1>
-        </div>
-
-        <!-- <div class="d-flex align-items-center justify-content-between mt-46">
-            <ul class="d-flex align-items-center justify-content-between list-none p-0 m-0">
-                <li><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0">1</a></li>
-                <li class="only-border"><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center border-0 circle-fill">2</a></li>
-            </ul>
-
-            <div class="d-flex align-items-center">
-                <p class="p-0 m-0 fw-400 lh-norma">Next story</p>
-                <div class="circle-xm d-flex justify-content-center align-items-center ml-9">
-                    <svg width="38" height="34" viewBox="0 0 38 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M38 17.0001C38 17.5636 37.7776 18.1042 37.3817 18.5026L22.6039 33.3777C21.7795 34.2075 20.4427 34.2075 19.6183 33.3777C18.794 32.5479 18.794 31.2023 19.6183 30.3725L30.7922 19.1251H2.11111C0.945145 19.1251 0 18.1737 0 17.0001C0 15.8264 0.945145 14.875 2.11111 14.875L30.7922 14.875L19.6183 3.62762C18.794 2.79774 18.794 1.45227 19.6183 0.622393C20.4427 -0.207464 21.7795 -0.207464 22.6039 0.622393L37.3817 15.4975C37.7776 15.8959 38 16.4365 38 17.0001Z" fill="black"/>
-                        <line x1="2" y1="-2" x2="13.5761" y2="-2" transform="matrix(-0.704783 -0.709422 0.704783 -0.709422 25.3333 17.0001)" stroke="black" stroke-width="4" stroke-linecap="round"/>
-                        <line x1="2" y1="-2" x2="13.5761" y2="-2" transform="matrix(0.704783 -0.709422 -0.704783 -0.709422 10.9778 25.5001)" stroke="black" stroke-width="4" stroke-linecap="round"/>
-                    </svg>
+                </div>
+                <div class="description">
+                    <div class="image-content scroll text-white">Bulbophyllum gurungianum is named in honor of Professor Dhan Bdr. Gurung, College of Natural Resources, Lobesa, Punakha Dzongkhag who first discovered the orchid in 2006 and for his immense contribution to the orchid taxonomy in Bhutan. The fspecies is found between elevations of 1400-2000 m. </div>
                 </div>
             </div>
-        </div>         -->
+
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc3.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Chiloschista densiflora</div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="description">
+                    <div class="image-content scroll text-white">Chiloschista densiflora, named in reference to the densely flowered inflorescences was discovered from Zhemgang in 2014.The species have yellowish flowers with brown spots on the sepals and petals, but differs by the larger flower, with virtually glabrous to indistinctly micro-pubescent sepals and petals. It is mostly found in Trongsa and Zhemgang.   </div>
+                </div>
+            </div>
+
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc4.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Paphiopedilum fairrieanum</div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="description">
+                    <div class="image-content scroll text-white">Paphiopedilum fairrieanum, also called Fairrie's Paphiopedilum or Lady's Slipper Orchid, is an orchid species found in Bhutan. It features large, distinctive slipper-shaped flowers in tones of green, yellow, brown, or red. Growing in shaded areas, it contributes to Bhutan's flora and holds cultural significance as a symbol of rare beauty and charm</div>
+                </div>
+            </div>
+
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc5.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Pleione praecox (Sm.) D.Don</div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="description" >
+                    <div class="image-content scroll text-white">Pleione praecox is a perennial terrestrial, epiphytic or lithophytic miniature orchid species with big, fragrant flowers. The flowers are quite large with pink petals around a tubular white lip, which is stained deep pink at the mouth and marked internally with yellow. Shortly cylindrical, maroon pseudobulbs, covered by greenish warts, carry 2 apical, narrowly elliptic-lanceshaped, pointed leaves. It is orchid native to the West-Central Himalaya to China, India, Nepal, Vietnam, north Thailand and Myanamar where it grows in primary highland cloud forests on mossy trees and the rocks below them at altitudes of 1500-3400 m. It is a cold growing species found from 1200 to 2500m. Found in Tamala, Zhemgang.</div>
+                </div>
+            </div>
+
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc6.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Acampe rigida (Buch.-Ham. ex Sm.) P.F.Hunt</div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="description">
+                    <div class="image-content scroll text-white">Acampe rigida is a robust species with an unbranched stem up to 1 m (40 in) in length and 20 mm (0.8 in) in diameter. The leaves are distichous. The stem nodes are about 25 mm (1 in) apart and each bears a somewhat fleshy, upright leaf with sheathing base. The apices of the leaves are obtuse and unequally bilobed. The inflorescence is unbranched or sparsely branched, with many slightly fragrant, upturned, cup-shaped flowers less than 25 mm (1 in) in diameter. The petals are fleshy, and are yellow with purplish-brown stripes; they have a thick, white, three-lobed lower lip, and a short spur. They are followed by cylindrical or fusiform capsules. It grows on trees and rocks at altitudes of up to 1,800 m (6,000 ft).</div>
+                </div>
+            </div>
+
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc7.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name</div>
+                            <div class="sub">Calanthe plantaginea Lindl. 1833</div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="description">
+                    <div class="image-content scroll text-white">Found in western Himalayas, eastern Himalayas, Nepal, Bhutan, Sikkim and China in evergrgeen broad-leaved forests at elevations of 1800 to 2500 meters as a medium sized, cool to cold growing terrestrial with conical pseudobulbs carrying 3, elliptic-ovate, plicate, prominently ridged, acute, narrowing below into the petiolate bsae leaves that arise with the leaves in late winter and early spring on a lateral, laxly to subdensely many flowered, ridged, puberulent, 10 to 14.4" [25 to 36 cm] long, racemose inflorescence with persistent, lanceolate floral bracts and carrying fragrant, pendant flowers.</div>
+                </div>
+            </div>
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
+                <div class="image" style="background-image: url('../images/backgrounds/orc8.png');">
+                    <div class="label">
+                        <div class="info">
+                            <div class="main">Scientific name
+                            </div>
+                            <div class="sub"> vanda cristata Rchb.f.</div>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="description">
+                    <div class="image-content scroll text-white">Vanda cristata is a species of orchid found growing in the Himalaya from Bangladesh, India, Nepal, Bhutan to China (northwestern Yunnan) at elevations of 600 – 2300 meters. It is an epiphytic subshrub and grows primarily in the wet tropical biome. with a stout stem carrying coriaceous, recurved, truncately tridentate apically, conduplicate, linear leaves that are articulated basally to the imbricate sheathing leaf bases and blooms in the spring and summer on an axillary, descending, short, few [2 to 6] flowered inflorescence with short, broad bracts that are shorter than the leaves.It has fragrant floral scented, waxy, long-lived flowers with horns on the apex of the lip which is the determining factor between this species and V alpina.</div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
-
- 
-    
-    <script>
-        // $(".option").click(function () {
-        //     $(".option").removeClass("active");
-        //     $(this).addClass("active");
-        // });
-        $(document).ready(function () {
-            $(".option").click(function () {
-                $(".option").removeClass("active");
-                $(this).addClass("active");
-                $(".description").hide(); // Hide all descriptions
-                $(this).find(".description").show(); // Show description of clicked image
-            });
-        });
-    </script>
+    <h1 class="text-white">the ORCHID</h1>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
 @endsection
 
